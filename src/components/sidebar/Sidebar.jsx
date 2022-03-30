@@ -4,6 +4,8 @@ import styled from '@emotion/styled'
 // STYLE
 const Container = styled.div`
   flex: 1;
+  border: 1px solid black;
+  min-height: 100vh;
 `
 const Top = styled.div``
 const Center = styled.div``
@@ -12,9 +14,14 @@ const Bottom = styled.div``
 const Sidebar = () => {
   return (
     <Container>
-      sidebar
-      <Top>top</Top>
-      <Center>center</Center>
+      <Top>
+        <h1>PROJECT</h1>
+      </Top>
+      <Center>
+        <ul>
+          <li></li>
+        </ul>
+      </Center>
       <Bottom>bottom</Bottom>
     </Container>
   )
