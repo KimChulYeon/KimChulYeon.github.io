@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <Container>
       <Top>
-        <h1>PROJECT</h1>
+        <h1>Chul</h1>
       </Top>
       <Center>
         <ul>
